@@ -18,7 +18,7 @@ fun HomeRoute(
     openDrawer: () -> Unit,
     snackbarHostState: SnackbarHostState = remember { SnackbarHostState() }
 ) {
-
+    val uiState by homeViewModel.ui
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
